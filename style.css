@@ -1,0 +1,39 @@
+#app ul {
+    list-style: none;
+}
+
+#app li > span.done {
+    text-decoration: line-through;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.4); /* 半透明の白色 */
+    color: white; /* テキストの色を白に設定 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 画面全体の高さを埋める */
+    margin: 0; /* ページの余白をなくす */
+    font-family: Arial, sans-serif; /* フォントを指定 */
+    text-align: center; /* テキストを中央揃えにする */
+    background-color: skyblue; /* 背景色をskyblueに設定 */
+}
+
+ul {
+    list-style-type: none; /* リストのマーカーを非表示にする */
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center; /* アイテムを垂直方向に中央揃え */
+    margin-bottom: 10px; /* アイテム間の余白を設定 */
+}
+
+input[type="checkbox"] {
+    vertical-align: middle; /* チェックボックスを垂直方向に中央揃え */
+    margin-right: 10px; /* チェックボックスとテキストの間隔を設定 */
+}
+
+.done {
+    text-decoration: line-through; /* 完了済みのTODOに打ち消し線を追加 */
+}
